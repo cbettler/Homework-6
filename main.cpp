@@ -23,7 +23,7 @@ void writeOutFile(int A[], int size);
 
 
 int main() {
-    string file1name = "/Users/carleebettler/Documents/Comp 271/Unit 3/everybodys_socials.txt" ;
+    string file1name = "everybodys_socials.txt" ;
     
     string line, line2;
     
