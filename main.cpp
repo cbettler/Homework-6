@@ -23,7 +23,7 @@ void writeOutFile(int A[], int size);
 
 
 int main() {
-    string file1name = "/Users/carleebettler/Documents/Comp 271/Unit 3/everybodys_socials.txt" ;
+    string file1name = "everybodys_socials.txt" ;
     
     string line, line2;
     
@@ -131,8 +131,8 @@ int* extraction_method(string A[], int arraySize, int ProbeNum) {
             HashTable[Keys[i]] = SSNumsInts[i];
         }
         else{
-            //Otherwise, I create a temp index called index of the key value at that position. While the value in the hash table at the index of index is empty.
-            //If not, it reassigns index's value using the quadratic probing formula and the probe number taken in the from the user.
+            //Otherwise, I create a temp index called index of the key value at that position. If the value in the hash table at the index of index is not empty
+            //it reassigns index's value using the quadratic probing formula and the probe number taken in the from the user.
             //If that new index value still isn't empty, it increments the probe number and reassigns the index value using the same quadratic probing formula but a new probe number.
             //If keeps doing this until it finds a space that is not empty and then assigns the a SS number to that new index.
             
