@@ -76,7 +76,7 @@ int main() {
     cout<<"Please enter a number between 0 and 450000000 for quadratic probing"<<endl;
     cin >> input;
     
-    while(!(input > 0 && input < 450000000)) {
+    while(!(input >= 0 && input <= 450000000)) {
         cout<<"Please enter a number between 0 and 450000000 for quadratic probing"<<endl;
         cin >> input;
     }
